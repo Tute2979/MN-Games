@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3230042229689460467}
   - component: {fileID: 4042931964165238172}
   m_Layer: 0
-  m_Name: Enemy 1
+  m_Name: Homero
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,7 +145,7 @@ Animator:
   m_GameObject: {fileID: 1483365687654315626}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 66b0ce25a9a907048b069e3d4071b362, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 200
+  maxHealth: 100
   mustPatrol: 0
   rb: {fileID: 1483365687654315628}
   groundCheckPos: {fileID: 3590102514832769584}
@@ -174,6 +175,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   bodyColider: {fileID: 4042931964165238172}
+  animator: {fileID: 0}
 --- !u!61 &4042931964165238172
 BoxCollider2D:
   m_ObjectHideFlags: 0
