@@ -4,14 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 
-public class playerController : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     bool canJump;
     bool moving;
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
@@ -45,7 +41,7 @@ public class playerController : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag == "ground")
+        if (collision.transform.CompareTag("ground"))
         {
             canJump = true;
             gameObject.GetComponent<Animator>().SetBool("jumping", false);
