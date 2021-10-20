@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - diamantes
+  - salame
+  - arrow
   layers:
   - Default
   - TransparentFX
@@ -13,11 +16,11 @@ TagManager:
   - Water
   - UI
   - 
-  - 
+  - Player
   - Ground
   - Enemy
-  - 
-  - 
+  - Salame
+  - Arrow
   - 
   - 
   - 

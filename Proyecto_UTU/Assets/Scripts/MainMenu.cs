@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
 
     public void EscenaJuego()
     {
-        SceneManager.LoadScene("Nivel_1");
+        SceneManager.LoadScene(1);
     }
 
     public void Salir()
