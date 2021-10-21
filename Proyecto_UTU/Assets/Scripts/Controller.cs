@@ -17,11 +17,13 @@ public class Controller : MonoBehaviour
     int vidaActual;
     float horizontalMove = 0f;
     bool jump = false;
+    SpriteRenderer playerColor;
 
 
     private void Start()
     {
         vidaActual = vidaTotal;
+        playerColor = gameObject.GetComponent<SpriteRenderer>();
     }
     void Update()
     {
@@ -42,6 +44,8 @@ public class Controller : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
+
+        playerColor.color = Color.Lerp(playerColor.color, Color.white, Time.deltaTime / 0.2f);
 
     }
 
@@ -71,6 +75,7 @@ public class Controller : MonoBehaviour
     {
         if (collision.transform.CompareTag("salame"))
         {
+            playerColor.color = new Color(2, 0, 0);
             vidaActual--;
             vidas.text = "Vidas: "+vidaActual.ToString();
             if (vidaActual < 1)

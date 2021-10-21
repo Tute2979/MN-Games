@@ -4746,7 +4746,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &907336529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20542,8 +20542,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 279, y: 202.98999}
-  m_SizeDelta: {x: 108.64, y: 38.07}
+  m_AnchoredPosition: {x: 346.89, y: 202.98999}
+  m_SizeDelta: {x: 244.41, y: 38.07}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1411095507
 MonoBehaviour:
@@ -68263,6 +68263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempo: {fileID: 907336529}
+  text: {fileID: 1411095507}
   x: 180
 --- !u!4 &1590422425
 Transform:
@@ -68366,6 +68367,18 @@ PrefabInstance:
     - target: {fileID: 2441220388851504881, guid: 6377c36777a43d84e9b491355f946611, type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441220388851504882, guid: 6377c36777a43d84e9b491355f946611, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441220388851504882, guid: 6377c36777a43d84e9b491355f946611, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2441220388851504882, guid: 6377c36777a43d84e9b491355f946611, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2441220388851504882, guid: 6377c36777a43d84e9b491355f946611, type: 3}
       propertyPath: m_SortingOrder

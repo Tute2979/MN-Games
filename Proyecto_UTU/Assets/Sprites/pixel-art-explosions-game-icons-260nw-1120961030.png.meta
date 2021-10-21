@@ -1,7 +1,196 @@
 fileFormatVersion: 2
 guid: c2f8690552074f949a01befd3b140765
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 1614807816082937507
+    second: pixel-art-explosions-game-icons-260nw-1120961030_0
+  - first:
+      213: -1229024945949409305
+    second: pixel-art-explosions-game-icons-260nw-1120961030_1
+  - first:
+      213: 8598363735514521211
+    second: pixel-art-explosions-game-icons-260nw-1120961030_2
+  - first:
+      213: 2839187883878751277
+    second: pixel-art-explosions-game-icons-260nw-1120961030_3
+  - first:
+      213: 1311352924816126567
+    second: pixel-art-explosions-game-icons-260nw-1120961030_4
+  - first:
+      213: 4410320155485685249
+    second: pixel-art-explosions-game-icons-260nw-1120961030_5
+  - first:
+      213: -1588021399588493114
+    second: pixel-art-explosions-game-icons-260nw-1120961030_6
+  - first:
+      213: 1735075875268750758
+    second: pixel-art-explosions-game-icons-260nw-1120961030_7
+  - first:
+      213: 1181102458622961912
+    second: pixel-art-explosions-game-icons-260nw-1120961030_8
+  - first:
+      213: 3479373231664479814
+    second: pixel-art-explosions-game-icons-260nw-1120961030_9
+  - first:
+      213: 6723741489868054906
+    second: pixel-art-explosions-game-icons-260nw-1120961030_10
+  - first:
+      213: -5380885664597544689
+    second: pixel-art-explosions-game-icons-260nw-1120961030_11
+  - first:
+      213: -5973598950579484828
+    second: pixel-art-explosions-game-icons-260nw-1120961030_12
+  - first:
+      213: 5602643645069723260
+    second: pixel-art-explosions-game-icons-260nw-1120961030_13
+  - first:
+      213: 1409425381575344314
+    second: pixel-art-explosions-game-icons-260nw-1120961030_14
+  - first:
+      213: -423666240111094056
+    second: pixel-art-explosions-game-icons-260nw-1120961030_15
+  - first:
+      213: -8273641227810220747
+    second: pixel-art-explosions-game-icons-260nw-1120961030_16
+  - first:
+      213: -5815604729185131778
+    second: pixel-art-explosions-game-icons-260nw-1120961030_17
+  - first:
+      213: -3707149016467128307
+    second: pixel-art-explosions-game-icons-260nw-1120961030_18
+  - first:
+      213: -2909226813290925306
+    second: pixel-art-explosions-game-icons-260nw-1120961030_19
+  - first:
+      213: 8330773322081979687
+    second: pixel-art-explosions-game-icons-260nw-1120961030_20
+  - first:
+      213: -4552043613065198537
+    second: pixel-art-explosions-game-icons-260nw-1120961030_21
+  - first:
+      213: -9177128747081833385
+    second: pixel-art-explosions-game-icons-260nw-1120961030_22
+  - first:
+      213: 5406007004037935146
+    second: pixel-art-explosions-game-icons-260nw-1120961030_23
+  - first:
+      213: 1205171997208300237
+    second: pixel-art-explosions-game-icons-260nw-1120961030_24
+  - first:
+      213: 7897626058259764832
+    second: pixel-art-explosions-game-icons-260nw-1120961030_25
+  - first:
+      213: -4140431375310325388
+    second: pixel-art-explosions-game-icons-260nw-1120961030_26
+  - first:
+      213: 1036536097322448996
+    second: pixel-art-explosions-game-icons-260nw-1120961030_27
+  - first:
+      213: 990843422538634994
+    second: pixel-art-explosions-game-icons-260nw-1120961030_28
+  - first:
+      213: -5884805139871456203
+    second: pixel-art-explosions-game-icons-260nw-1120961030_29
+  - first:
+      213: -4797452517139691763
+    second: pixel-art-explosions-game-icons-260nw-1120961030_30
+  - first:
+      213: 7050389345049382653
+    second: pixel-art-explosions-game-icons-260nw-1120961030_31
+  - first:
+      213: 2612961497965848050
+    second: pixel-art-explosions-game-icons-260nw-1120961030_32
+  - first:
+      213: 6928020266031028110
+    second: pixel-art-explosions-game-icons-260nw-1120961030_33
+  - first:
+      213: -25039045664378432
+    second: pixel-art-explosions-game-icons-260nw-1120961030_34
+  - first:
+      213: -8456613135990288932
+    second: pixel-art-explosions-game-icons-260nw-1120961030_35
+  - first:
+      213: -3630554785560310851
+    second: pixel-art-explosions-game-icons-260nw-1120961030_36
+  - first:
+      213: -4659070399940599144
+    second: pixel-art-explosions-game-icons-260nw-1120961030_37
+  - first:
+      213: -7242085185384531120
+    second: pixel-art-explosions-game-icons-260nw-1120961030_38
+  - first:
+      213: 5995375556009915156
+    second: pixel-art-explosions-game-icons-260nw-1120961030_39
+  - first:
+      213: -5697046318498628727
+    second: pixel-art-explosions-game-icons-260nw-1120961030_40
+  - first:
+      213: -577034028837173658
+    second: pixel-art-explosions-game-icons-260nw-1120961030_41
+  - first:
+      213: -8605409524562992949
+    second: pixel-art-explosions-game-icons-260nw-1120961030_42
+  - first:
+      213: -3601899067122746129
+    second: pixel-art-explosions-game-icons-260nw-1120961030_43
+  - first:
+      213: -9125008019796577383
+    second: pixel-art-explosions-game-icons-260nw-1120961030_44
+  - first:
+      213: -2195839520715798454
+    second: pixel-art-explosions-game-icons-260nw-1120961030_45
+  - first:
+      213: 4942539952903446872
+    second: pixel-art-explosions-game-icons-260nw-1120961030_46
+  - first:
+      213: -6419897522217953914
+    second: pixel-art-explosions-game-icons-260nw-1120961030_47
+  - first:
+      213: -8910121698256061880
+    second: pixel-art-explosions-game-icons-260nw-1120961030_48
+  - first:
+      213: -5706278065609615944
+    second: pixel-art-explosions-game-icons-260nw-1120961030_49
+  - first:
+      213: -4984690433378504609
+    second: pixel-art-explosions-game-icons-260nw-1120961030_50
+  - first:
+      213: -7648653370450659400
+    second: pixel-art-explosions-game-icons-260nw-1120961030_51
+  - first:
+      213: -6969201676230837748
+    second: pixel-art-explosions-game-icons-260nw-1120961030_52
+  - first:
+      213: 297983871652491854
+    second: pixel-art-explosions-game-icons-260nw-1120961030_53
+  - first:
+      213: -1576951900335111200
+    second: pixel-art-explosions-game-icons-260nw-1120961030_54
+  - first:
+      213: 2707969795273303522
+    second: pixel-art-explosions-game-icons-260nw-1120961030_55
+  - first:
+      213: 7107955559663193940
+    second: pixel-art-explosions-game-icons-260nw-1120961030_56
+  - first:
+      213: -3767263623952748072
+    second: pixel-art-explosions-game-icons-260nw-1120961030_57
+  - first:
+      213: -9076061510348810525
+    second: pixel-art-explosions-game-icons-260nw-1120961030_58
+  - first:
+      213: 7116017415914766542
+    second: pixel-art-explosions-game-icons-260nw-1120961030_59
+  - first:
+      213: -728131047515814031
+    second: pixel-art-explosions-game-icons-260nw-1120961030_60
+  - first:
+      213: 4534900556381089963
+    second: pixel-art-explosions-game-icons-260nw-1120961030_61
+  - first:
+      213: -1114767415396186227
+    second: pixel-art-explosions-game-icons-260nw-1120961030_62
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +230,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +264,180 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: pixel-art-explosions-game-icons-260nw-1120961030_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 4
+        width: 99
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6d5223723f86610800000000000000
+      internalID: 1614807816082937507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-explosions-game-icons-260nw-1120961030_1
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 0
+        width: 112
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef7794c250a1fee0800000000000000
+      internalID: -1229024945949409305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-explosions-game-icons-260nw-1120961030_2
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 0
+        width: 112
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e91f8e246835770800000000000000
+      internalID: 8598363735514521211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-explosions-game-icons-260nw-1120961030_3
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 118
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c9f257652d66720800000000000000
+      internalID: 2839187883878751277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-explosions-game-icons-260nw-1120961030_4
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762b5da898cd23210800000000000000
+      internalID: 1311352924816126567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-explosions-game-icons-260nw-1120961030_8
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 21
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f8ef89ad6e146010800000000000000
+      internalID: 1181102458622961912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-explosions-game-icons-260nw-1120961030_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca49d2db81a9b010800000000000000
+      internalID: 1205171997208300237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

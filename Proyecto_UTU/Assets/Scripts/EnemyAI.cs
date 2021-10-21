@@ -13,8 +13,14 @@ public class EnemyAI : MonoBehaviour
     public float launchForce = 20f;
     public float attackRate = 2f;
     float nextAttackTime = 0f;
-    int vidas = 2;
+    int vidas = 3;
+    SpriteRenderer playerColor;
 
+
+    private void Start()
+    {
+        playerColor = GetComponent<SpriteRenderer>();
+    }
     void Update()
     {
         Vector2 enemyPosition = transform.position;
@@ -25,7 +31,7 @@ public class EnemyAI : MonoBehaviour
 
         if (Time.time >= nextAttackTime)
         {
-            if (distance <= 10f)
+            if (distance <= 15f)
         {
                 animator.SetBool("Agro", true);
             Attack();
@@ -38,7 +44,8 @@ public class EnemyAI : MonoBehaviour
             }
         }
 
-        
+        playerColor.color = Color.Lerp(playerColor.color, Color.white, Time.deltaTime / 0.2f);
+
     }
 
     void Attack()
@@ -52,10 +59,12 @@ public class EnemyAI : MonoBehaviour
     {
         if (collision.transform.CompareTag("arrow"))
         {
+            playerColor.color = new Color(2, 0, 0);
             vidas--;
             if (vidas < 1)
             {
-                Destroy(this.gameObject);
+                animator.SetTrigger("Die");
+                Destroy(this.gameObject, 0.30f);
             }
         }
     }
