@@ -7,6 +7,7 @@ public class Bow : MonoBehaviour
     public GameObject arrow;
     public float launchForce;
     public Transform shotPoint;
+    float nextAttackTime = 0f;
 
     Vector2 direction;
 
@@ -17,9 +18,10 @@ public class Bow : MonoBehaviour
         direction = mousePosition - cannonPosition;
         transform.right = direction;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) & Time.time >= nextAttackTime)
         {
             Shoot();
+            nextAttackTime = Time.time + 0.3f;
         }
 
     }

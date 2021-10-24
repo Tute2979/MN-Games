@@ -13,7 +13,7 @@ public class EnemyAI : MonoBehaviour
     public float launchForce = 20f;
     public float attackRate = 2f;
     float nextAttackTime = 0f;
-    int vidas = 3;
+    public int vidas;
     SpriteRenderer playerColor;
 
 
@@ -64,7 +64,7 @@ public class EnemyAI : MonoBehaviour
             if (vidas < 1)
             {
                 animator.SetTrigger("Die");
-                Destroy(this.gameObject, 0.30f);
+                Destroy(this.gameObject, 0.12f);
             }
         }
     }

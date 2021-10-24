@@ -15,6 +15,7 @@ public class Puerta : MonoBehaviour
     public Text interactuar;
     public GameObject candadoAbierto;
     public GameObject candadoCerrado;
+    public int requisito;
 
 
     private void Start()
@@ -25,7 +26,7 @@ public class Puerta : MonoBehaviour
     {
 
         float distance = Vector3.Distance(player.transform.position, transform.position);
-        if (ScoreManager.score >= 22)
+        if (ScoreManager.score >= requisito)
         {
             candadoCerrado.SetActive(false);
             candadoAbierto.SetActive(true);

@@ -8,6 +8,8 @@ TagManager:
   - diamantes
   - salame
   - arrow
+  - enemy
+  - vacio
   layers:
   - Default
   - TransparentFX

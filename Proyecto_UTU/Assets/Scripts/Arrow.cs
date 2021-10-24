@@ -27,10 +27,17 @@ void Update()
 
 private void OnCollisionEnter2D(Collision2D collision)
 {
+        if (collision.transform.tag != "salame"){
+
+        if (collision.transform.CompareTag("enemy"))
+        {
+            Destroy(this.gameObject);
+        }
         hasHit = true;
         rb.velocity = Vector2.zero;
         rb.isKinematic = true;
-        Object.Destroy(gameObject, 2.0f);
+        Object.Destroy(gameObject, 0.3f);
+        }
 
 }
 }
