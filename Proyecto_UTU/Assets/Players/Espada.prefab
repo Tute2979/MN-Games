@@ -53,6 +53,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Espada
       objectReference: {fileID: 0}
+    - target: {fileID: 7588034080921076663, guid: ae6693e44b2fcc9469e37e204127d8fb, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7892320868251009944, guid: ae6693e44b2fcc9469e37e204127d8fb, type: 3}
       propertyPath: m_RootOrder
       value: 0

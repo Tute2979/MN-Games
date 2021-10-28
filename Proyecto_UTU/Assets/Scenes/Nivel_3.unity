@@ -278,6 +278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meliodas (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -396,17 +400,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meliodas (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -36.39
+      value: -36.01
       objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.1
+      value: -0.29
       objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -516,6 +528,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a702596855c15644b4b6ed7f4917c27, type: 3}
+--- !u!114 &124418086 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3466606383233661857, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
+  m_PrefabInstance: {fileID: 1903326471}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &126629626 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7529635343020985367, guid: 8dab7379f6c67d9448d4c24d1eace61b, type: 3}
@@ -1665,6 +1688,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meliodas (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1725,6 +1752,14 @@ PrefabInstance:
     - target: {fileID: 7059359287534796842, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_Name
       value: Meliodas (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_Constraints
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_RootOrder
@@ -1811,11 +1846,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2441220388851504883, guid: 6377c36777a43d84e9b491355f946611, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.89
+      value: -17.66
       objectReference: {fileID: 0}
     - target: {fileID: 2441220388851504883, guid: 6377c36777a43d84e9b491355f946611, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.68
+      value: -0.55
       objectReference: {fileID: 0}
     - target: {fileID: 2441220388851504883, guid: 6377c36777a43d84e9b491355f946611, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1853,6 +1888,10 @@ PrefabInstance:
       propertyPath: vidas
       value: 
       objectReference: {fileID: 1373745333}
+    - target: {fileID: 3306830824687700916, guid: 6377c36777a43d84e9b491355f946611, type: 3}
+      propertyPath: contadorMuertes
+      value: 
+      objectReference: {fileID: 124418086}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377c36777a43d84e9b491355f946611, type: 3}
 --- !u!4 &584169298 stripped
@@ -2134,6 +2173,10 @@ PrefabInstance:
     - target: {fileID: 7059359287534796842, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_Name
       value: Meliodas (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_BodyType
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_RootOrder
@@ -2612,11 +2655,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8746762391861760555, guid: 78c0f168d9274124eaeedea139301a44, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -67.599785
+      value: -67.55
       objectReference: {fileID: 0}
     - target: {fileID: 8746762391861760555, guid: 78c0f168d9274124eaeedea139301a44, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4497833
+      value: -2.45
       objectReference: {fileID: 0}
     - target: {fileID: 8746762391861760555, guid: 78c0f168d9274124eaeedea139301a44, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3623,6 +3666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meliodas (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -4357,17 +4404,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Meliodas
       objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7059359287534796844, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -42.92
+      value: -42.88
       objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.7
+      value: 7.62
       objectReference: {fileID: 0}
     - target: {fileID: 7059359287534796846, guid: 70d3d55180100aa4c91624cda4dd762f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4575,11 +4630,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6159432875055019057, guid: 1395a03a110bd074da0af34de45b5bb0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.89
+      value: -17.66
       objectReference: {fileID: 0}
     - target: {fileID: 6159432875055019057, guid: 1395a03a110bd074da0af34de45b5bb0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.36
+      value: 3.5900004
       objectReference: {fileID: 0}
     - target: {fileID: 6159432875055019057, guid: 1395a03a110bd074da0af34de45b5bb0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4623,7 +4678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6159432875055019058, guid: 1395a03a110bd074da0af34de45b5bb0, type: 3}
       propertyPath: m_Lens.OrthographicSize
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6159432875055019059, guid: 1395a03a110bd074da0af34de45b5bb0, type: 3}
       propertyPath: m_Name
@@ -4758,11 +4813,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7956360262584806472, guid: b0efce2950660004ab8af04ce42320cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.89
+      value: -17.66
       objectReference: {fileID: 0}
     - target: {fileID: 7956360262584806472, guid: b0efce2950660004ab8af04ce42320cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.36
+      value: 3.5900004
       objectReference: {fileID: 0}
     - target: {fileID: 7956360262584806472, guid: b0efce2950660004ab8af04ce42320cd, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4810,7 +4865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7956360262584806487, guid: b0efce2950660004ab8af04ce42320cd, type: 3}
       propertyPath: orthographic size
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7956360262584806487, guid: b0efce2950660004ab8af04ce42320cd, type: 3}
       propertyPath: m_BackGroundColor.b
@@ -15093,6 +15148,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1529574279}
     m_Modifications:
+    - target: {fileID: 4748770549160642476, guid: b18dcd3ee86986b469e9cfc64055704c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 11.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748770549160642476, guid: b18dcd3ee86986b469e9cfc64055704c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 8880890979157700241, guid: b18dcd3ee86986b469e9cfc64055704c, type: 3}
       propertyPath: m_Name
       value: PF Village Props - Stall

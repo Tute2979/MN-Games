@@ -367,6 +367,10 @@ PrefabInstance:
       propertyPath: vidas
       value: 
       objectReference: {fileID: 1728789852}
+    - target: {fileID: 3306830824687700916, guid: 6377c36777a43d84e9b491355f946611, type: 3}
+      propertyPath: contadorMuertes
+      value: 
+      objectReference: {fileID: 1084279361}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6377c36777a43d84e9b491355f946611, type: 3}
 --- !u!1 &657297622
@@ -715,6 +719,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
+--- !u!114 &1084279361 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3466606383233661857, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
+  m_PrefabInstance: {fileID: 1084279360}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1097159711 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2188763529296724896, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
@@ -74186,6 +74201,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1055596149384833552, guid: 76c5bdf861d16a8418960ca181d0805b, type: 3}
+      propertyPath: ball
+      value: 
+      objectReference: {fileID: 3809620363422214155, guid: a70d0a3a4be0e7546ab4ab8e06438093, type: 3}
     - target: {fileID: -1055596149384833552, guid: 76c5bdf861d16a8418960ca181d0805b, type: 3}
       propertyPath: player
       value: 

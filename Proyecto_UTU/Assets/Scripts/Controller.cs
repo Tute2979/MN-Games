@@ -11,12 +11,15 @@ public class Controller : MonoBehaviour
     public Animator animator;
     public int diamondValue = 1;
     public Text vidas;
+    public Text contadorMuertes;
 
     public float runSpeed = 40f;
+    public static int muertes = 0;
     readonly int vidaTotal = 5;
     int vidaActual;
     float horizontalMove = 0f;
     bool jump = false;
+    float damageCooldown = 0f;
     SpriteRenderer playerColor;
 
 
@@ -24,6 +27,7 @@ public class Controller : MonoBehaviour
     {
         vidaActual = vidaTotal;
         playerColor = gameObject.GetComponent<SpriteRenderer>();
+        contadorMuertes.text = "Muertes: " + muertes.ToString();
     }
     void Update()
     {
@@ -73,13 +77,15 @@ public class Controller : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.CompareTag("salame"))
+        if (collision.transform.CompareTag("salame") & Time.time >= damageCooldown)
         {
             playerColor.color = new Color(2, 0, 0);
             vidaActual--;
             vidas.text = "Vidas: "+vidaActual.ToString();
+            damageCooldown = Time.time + 0.3f;
             if (vidaActual < 1)
             {
+                muertes++;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }

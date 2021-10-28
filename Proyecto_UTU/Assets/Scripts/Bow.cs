@@ -24,6 +24,7 @@ public class Bow : MonoBehaviour
             nextAttackTime = Time.time + 0.3f;
         }
 
+
     }
 
     void Shoot()
