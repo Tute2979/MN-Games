@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8833647074293141743}
   - component: {fileID: 6909945117109982435}
   - component: {fileID: -3569297868843384368}
-  - component: {fileID: -2206433991603753925}
   - component: {fileID: -5400898977963358644}
+  - component: {fileID: -585257081914992161}
   m_Layer: 0
   m_Name: Manzana
   m_TagString: diamantes
@@ -101,19 +101,6 @@ CircleCollider2D:
   m_Offset: {x: -0.0039036274, y: 0}
   serializedVersion: 2
   m_Radius: 0.3632263
---- !u!114 &-2206433991603753925
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1344534461910043733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c050f30e47a316b46a8e9b82a1cb7095, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  diamondValue: 1
 --- !u!95 &-5400898977963358644
 Animator:
   serializedVersion: 3
@@ -133,3 +120,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-585257081914992161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344534461910043733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae302d73329983b4aafa19ad207d9936, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manzanaValue: 1

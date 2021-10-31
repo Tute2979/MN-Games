@@ -46,6 +46,7 @@ public class Meliodas : MonoBehaviour
     {
         GameObject newBall = Instantiate(ball, shotPoint.position, shotPoint.rotation);
         newBall.GetComponent<Rigidbody2D>().velocity = shotPoint.right * launchForce;
+        FindObjectOfType<AudioManager>().Play("Sword");
         Destroy(newBall, 2f);
     }
 
@@ -55,8 +56,10 @@ public class Meliodas : MonoBehaviour
         {
             playerColor.color = new Color(2, 0, 0);
             vidas--;
+            FindObjectOfType<AudioManager>().Play("Enemy_Hurt");
             if (vidas < 1)
             {
+                FindObjectOfType<AudioManager>().Play("Explosion");
                 Destroy(this.gameObject);
             }
         }

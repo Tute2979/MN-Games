@@ -5,7 +5,7 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
 
-    float tiempo = 0.5f;
+    float tiempo = 0.3f;
     public GameObject Dona;
 
 
@@ -14,7 +14,7 @@ public class Spawner : MonoBehaviour
     {
         if (Time.time > tiempo)
         {
-            tiempo = Time.time + 0.5f;
+            tiempo = Time.time + 0.3f;
             Instantiate(Dona, new Vector3(Random.Range(18.8f, 63.79f), 13f, 0f), transform.rotation);
         }
     }

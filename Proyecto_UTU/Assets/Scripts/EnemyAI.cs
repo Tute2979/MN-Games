@@ -52,6 +52,7 @@ public class EnemyAI : MonoBehaviour
     {
         GameObject newBall = Instantiate(ball, shotPoint.position, shotPoint.rotation);
         newBall.GetComponent<Rigidbody2D>().velocity = shotPoint.right * launchForce;
+        FindObjectOfType<AudioManager>().Play("Enemy_Shoot");
         Destroy(newBall, 2f);
     }
 
@@ -61,8 +62,10 @@ public class EnemyAI : MonoBehaviour
         {
             playerColor.color = new Color(2, 0, 0);
             vidas--;
+            FindObjectOfType<AudioManager>().Play("Enemy_Hurt");
             if (vidas < 1)
             {
+                FindObjectOfType<AudioManager>().Play("Explosion");
                 animator.SetTrigger("Die");
                 Destroy(this.gameObject, 0.12f);
             }

@@ -40,6 +40,7 @@ public class Controller : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            FindObjectOfType<AudioManager>().Play("Jump");
             animator.SetBool("jumping", true);
         }
 
@@ -75,16 +76,34 @@ public class Controller : MonoBehaviour
             Destroy(other.gameObject);
         }
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.CompareTag("salame") & Time.time >= damageCooldown)
         {
             playerColor.color = new Color(2, 0, 0);
             vidaActual--;
+            FindObjectOfType<AudioManager>().Play("Hurt");
             vidas.text = "Vidas: "+vidaActual.ToString();
             damageCooldown = Time.time + 0.3f;
             if (vidaActual < 1)
             {
+                FindObjectOfType<AudioManager>().Play("Death");
+                muertes++;
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+        }
+
+        if (collision.transform.CompareTag("enemy") & Time.time >= damageCooldown)
+        {
+            playerColor.color = new Color(2, 0, 0);
+            vidaActual--;
+            FindObjectOfType<AudioManager>().Play("Hurt");
+            vidas.text = "Vidas: " + vidaActual.ToString();
+            damageCooldown = Time.time + 0.3f;
+            if (vidaActual < 1)
+            {
+                FindObjectOfType<AudioManager>().Play("Death");
                 muertes++;
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }

@@ -10,7 +10,8 @@ public class Diamond : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player")){
-            ScoreManager.instance.ChangeScore(diamondValue);
+            ScoreManager.instance.ChangeScoreDiamante(diamondValue);
+            FindObjectOfType<AudioManager>().Play("Coin");
         }
     }
 }

@@ -26,7 +26,7 @@ public class Puerta : MonoBehaviour
     {
 
         float distance = Vector3.Distance(player.transform.position, transform.position);
-        if (ScoreManager.score >= requisito)
+        if (ScoreManager.diamantes >= requisito)
         {
             candadoCerrado.SetActive(false);
             candadoAbierto.SetActive(true);

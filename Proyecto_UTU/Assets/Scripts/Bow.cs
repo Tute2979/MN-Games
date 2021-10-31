@@ -18,10 +18,10 @@ public class Bow : MonoBehaviour
         direction = mousePosition - cannonPosition;
         transform.right = direction;
 
-        if (Input.GetMouseButtonDown(0) & Time.time >= nextAttackTime)
+        if (Input.GetMouseButton(0) & Time.time >= nextAttackTime)
         {
             Shoot();
-            nextAttackTime = Time.time + 0.3f;
+            nextAttackTime = Time.time + 0.4f;
         }
 
 
@@ -31,6 +31,7 @@ public class Bow : MonoBehaviour
     {
         GameObject newBall = Instantiate(arrow, shotPoint.position, shotPoint.rotation);
         newBall.GetComponent<Rigidbody2D>().velocity = transform.right * launchForce;
+        FindObjectOfType<AudioManager>().Play("Shoot");
     }
 
 }

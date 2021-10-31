@@ -33,10 +33,13 @@ private void OnCollisionEnter2D(Collision2D collision)
         {
             Destroy(this.gameObject);
         }
-        hasHit = true;
-        rb.velocity = Vector2.zero;
-        rb.isKinematic = true;
-        Object.Destroy(gameObject, 0.3f);
+            if (collision.transform.tag != "arrow")
+            {
+                hasHit = true;
+                rb.velocity = Vector2.zero;
+                rb.isKinematic = true;
+                Object.Destroy(gameObject, 0.3f);
+            }
         }
 
 }

@@ -50,6 +50,7 @@ public class BossAI : MonoBehaviour
     {
         GameObject newBall = Instantiate(ball, shotPoint.position, shotPoint.rotation);
         newBall.GetComponent<Rigidbody2D>().velocity = shotPoint.right * launchForce;
+        FindObjectOfType<AudioManager>().Play("Enemy_Shoot");
         Destroy(newBall, 2f);
     }
 
@@ -59,12 +60,14 @@ public class BossAI : MonoBehaviour
         {
             playerColor.color = new Color(2, 0, 0);
             vidas--;
+            FindObjectOfType<AudioManager>().Play("Enemy_Hurt");
             if (vidas < 1)
             {
                 dead = true;
                 spawner.SetActive(false);
                 animator.SetTrigger("Die");
-                Destroy(this.gameObject, 0.4f);
+                FindObjectOfType<AudioManager>().Play("Explosion");
+                Destroy(this.gameObject, 0.12f);
             }
         }
     }
