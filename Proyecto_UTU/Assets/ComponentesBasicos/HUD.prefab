@@ -32,8 +32,8 @@ RectTransform:
   m_Father: {fileID: 3466315811986234243}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -203,7 +203,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 3731067169957177059}
   - component: {fileID: 7835222043393446134}
   m_Layer: 5
-  m_Name: Musica (1)
+  m_Name: Efectos de sonido
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -280,8 +280,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5, y: -87}
-  m_SizeDelta: {x: -817.2461, y: -569.4751}
+  m_AnchoredPosition: {x: 0, y: -83.37001}
+  m_SizeDelta: {x: -411.37604, y: -536.74}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7937055532423452433
 CanvasRenderer:
@@ -321,8 +321,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Efectos de sonido
 --- !u!114 &7835222043393446134
@@ -938,8 +938,8 @@ MonoBehaviour:
   m_FillRect: {fileID: 7530840167703171611}
   m_HandleRect: {fileID: 5698176002245769408}
   m_Direction: 0
-  m_MinValue: -10
-  m_MaxValue: 10
+  m_MinValue: -40
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
@@ -1040,7 +1040,7 @@ MonoBehaviour:
   m_FillRect: {fileID: 5999239292806456621}
   m_HandleRect: {fileID: 8756490978109348702}
   m_Direction: 0
-  m_MinValue: -10
+  m_MinValue: -40
   m_MaxValue: 10
   m_WholeNumbers: 0
   m_Value: 0
@@ -1091,8 +1091,8 @@ RectTransform:
   m_Father: {fileID: 8428504769846236469}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1169,8 +1169,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.145874, y: -15}
-  m_SizeDelta: {x: -976, y: -569.4751}
+  m_AnchoredPosition: {x: -0.000030517578, y: -11.584991}
+  m_SizeDelta: {x: -486.03, y: -553.1693}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &110702833249037923
 CanvasRenderer:
@@ -1210,8 +1210,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: Musica
 --- !u!114 &8620083068189381696
@@ -1283,7 +1283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6121490297977279009
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2541,7 +2541,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
