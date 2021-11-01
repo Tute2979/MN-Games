@@ -18,7 +18,7 @@ public class Controller : MonoBehaviour
     readonly int vidaTotal = 5;
     int vidaActual;
     float horizontalMove = 0f;
-    bool jump = false;
+    bool jump;
     float damageCooldown = 0f;
     SpriteRenderer playerColor;
 
@@ -40,7 +40,6 @@ public class Controller : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
-            FindObjectOfType<AudioManager>().Play("Jump");
             animator.SetBool("jumping", true);
         }
 
@@ -57,6 +56,7 @@ public class Controller : MonoBehaviour
 
     public void OnLanding()
     {
+        jump = false;
         animator.SetBool("jumping", false);
     }
 
