@@ -48,7 +48,7 @@ GameObject:
   - component: {fileID: 5970329361070864458}
   m_Layer: 7
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,10 +204,11 @@ MonoBehaviour:
   m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 257
+    m_Bits: 7991
   m_GroundCheck: {fileID: 6991312703865375378}
   m_CeilingCheck: {fileID: 3263780729573083026}
   m_CrouchDisableCollider: {fileID: 0}
+  hangTime: 0.2
   OnLandEvent:
     m_PersistentCalls:
       m_Calls:
@@ -244,6 +245,7 @@ MonoBehaviour:
   vidas: {fileID: 0}
   contadorMuertes: {fileID: 0}
   runSpeed: 40
+  jumpBufferLenght: 0.1
 --- !u!58 &5970329361070864458
 CircleCollider2D:
   m_ObjectHideFlags: 0

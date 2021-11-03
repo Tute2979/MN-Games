@@ -6,6 +6,10 @@ using UnityEngine.UI;
 public class ScoreManager : MonoBehaviour
 {
 
+    public static float puntuacionFinal;
+    public Text puntuacion;
+    public Text muertes;
+
     public static ScoreManager instance;
     public Text cantDiamantes;
     public Text cantManzanas;
@@ -30,7 +34,11 @@ public class ScoreManager : MonoBehaviour
         piñas = 0;
     }
 
-
+    public void CargarPuntuacion()
+    {
+        puntuacion.text = "Puntuacion: " + Mathf.Round(puntuacionFinal).ToString();
+        muertes.text = "Muertes: " + Controller.muertes;
+    }
 
     public void ChangeScoreDiamante(int diamondValue)
     {

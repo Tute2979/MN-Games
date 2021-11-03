@@ -10,12 +10,13 @@ public class BossAI : MonoBehaviour
     public GameObject spawner;
     public Transform shotPoint;
     public Animator animator;
+    SpriteRenderer playerColor;
 
     public float launchForce = 20f;
     public float attackRate = 2f;
     float nextAttackTime = 0f;
-    int vidas = 30;
-    SpriteRenderer playerColor;
+    int vidas = 60;
+    
     public static bool dead;
 
 
@@ -34,7 +35,7 @@ public class BossAI : MonoBehaviour
 
         if (Time.time >= nextAttackTime)
         {
-            if (distance <= 12f)
+            if (distance <= 24f)
             {
                 Attack();
                 nextAttackTime = Time.time + 2f / attackRate;

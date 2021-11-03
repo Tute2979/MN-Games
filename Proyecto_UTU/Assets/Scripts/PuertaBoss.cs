@@ -35,6 +35,7 @@ public class PuertaBoss : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     LoadNextLevel();
+
                 }
             }
         }
@@ -44,6 +45,7 @@ public class PuertaBoss : MonoBehaviour
 
     public void LoadNextLevel()
     {
+        ScoreManager.puntuacionFinal += TimeManager.x;
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 

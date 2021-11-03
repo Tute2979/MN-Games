@@ -2938,6 +2938,10 @@ PrefabInstance:
       propertyPath: m_Colors.m_NormalColor.a
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 917660436835470234, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1355321351531089099, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -16.634338
@@ -3013,6 +3017,10 @@ PrefabInstance:
     - target: {fileID: 6025289001641391109, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -14.163147
+      objectReference: {fileID: 0}
+    - target: {fileID: 6761972484562373741, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -83.369995
       objectReference: {fileID: 0}
     - target: {fileID: 6783995896593496670, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
       propertyPath: m_Name
@@ -3168,7 +3176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6783995897806522601, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -105.61
+      value: -105.609985
       objectReference: {fileID: 0}
     - target: {fileID: 6783995897806522602, guid: f12623a30bfe42540b2cd6066ef407fc, type: 3}
       propertyPath: m_FontData.m_Alignment
@@ -3588,5 +3596,27 @@ PrefabInstance:
       propertyPath: interactuar
       value: 
       objectReference: {fileID: 33226143}
+    - target: {fileID: 8627009321741600030, guid: 41109fea9506c6946809c44d077cda33, type: 3}
+      propertyPath: dialogue.sentences.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8627009321741600030, guid: 41109fea9506c6946809c44d077cda33, type: 3}
+      propertyPath: dialogue.sentences.Array.data[4]
+      value: Si estas pensando en salir de aqui deberas primero pasar por cinco pruebas
+        para demostrar lo que vales.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8627009321741600030, guid: 41109fea9506c6946809c44d077cda33, type: 3}
+      propertyPath: dialogue.sentences.Array.data[5]
+      value: Para pasar la primera prueba tendras que encontrar todos los diamantes
+        en este castillo antes que sea demasiado tarde.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8627009321741600030, guid: 41109fea9506c6946809c44d077cda33, type: 3}
+      propertyPath: dialogue.sentences.Array.data[6]
+      value: Te he dado un arco con flechas infinitas para que puedas defenderte.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8627009321741600030, guid: 41109fea9506c6946809c44d077cda33, type: 3}
+      propertyPath: dialogue.sentences.Array.data[7]
+      value: Suerte!
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41109fea9506c6946809c44d077cda33, type: 3}

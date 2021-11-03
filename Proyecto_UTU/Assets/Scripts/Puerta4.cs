@@ -45,6 +45,7 @@ public class Puerta4 : MonoBehaviour
 
     public void LoadNextLevel()
     {
+        ScoreManager.puntuacionFinal += TimeManager.x;
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 

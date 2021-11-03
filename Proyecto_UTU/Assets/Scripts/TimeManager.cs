@@ -7,11 +7,11 @@ using UnityEngine.SceneManagement;
 public class TimeManager : MonoBehaviour
 {
     public Text text;
-    public float x = 60;
+    public static float x = 180;
     // Start is called before the first frame update
     void Start()
     {
-
+        x = 180;
     }
 
     // Update is called once per frame

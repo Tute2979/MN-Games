@@ -22,6 +22,9 @@ public class Controller : MonoBehaviour
     float damageCooldown = 0f;
     SpriteRenderer playerColor;
 
+    public float jumpBufferLenght = .1f;
+    private float jumpBufferCount;
+
 
     private void Start()
     {
@@ -37,10 +40,21 @@ public class Controller : MonoBehaviour
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
 
+        //manage jump buffer
         if (Input.GetButtonDown("Jump"))
+        {
+            jumpBufferCount = jumpBufferLenght;
+        }
+        else
+        {
+            jumpBufferCount -= Time.deltaTime;
+        }
+
+        if (jumpBufferCount >= 0)
         {
             jump = true;
             animator.SetBool("jumping", true);
+            jumpBufferCount = 0;
         }
 
 
